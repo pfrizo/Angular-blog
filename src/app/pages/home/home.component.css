@@ -9,18 +9,19 @@
 
     margin-top: 15px;
 
-    border: 2px solid;
+    
 }
 
-.big-card {
+.news__main {
     width: 50%;
     height: 100%;
-    margin-top: 10px;
+    margin: 16px 0;
 }
 
-.small-cards {
+.news__others {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin: 16px 0;
 }
 
 .small-card {
