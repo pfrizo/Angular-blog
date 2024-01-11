@@ -9,7 +9,13 @@
     min-height: 150px;
 }
 
-.small-card > h3 {
+.small-card > a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.small-card > a > h3 {
     margin: 5px;
     font-size: medium;
 }

@@ -20,6 +20,11 @@
     margin-bottom: 8px;
 }
 
-.big-card > h2 {
+.big-card > a {
+    text-decoration: none;
+    color: black;
+}
+
+.big-card > a > h2 {
     margin-top: 8px;
 }

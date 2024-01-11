@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-menu-info',
@@ -6,6 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./menu-info.component.css']
 })
 export class MenuInfoComponent implements OnInit {
+
+  @Input()
+  menuSubject:string = ''
+
+  @Input()
+  data:string = ''
 
   constructor() { }
 
