@@ -1,0 +1,29 @@
+.content {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.news {
+    display: flex;
+    flex-direction: row;
+
+    margin-top: 15px;
+
+    border: 2px solid;
+}
+
+.big-card {
+    width: 50%;
+    height: 100%;
+    margin-top: 10px;
+}
+
+.small-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.small-card {
+
+    list-style: none;
+}

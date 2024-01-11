@@ -1,0 +1,14 @@
+
+
+.menu-title > h1 {
+    font-size: 60pt;
+
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+}
+
+.menu-title > hr {
+    border: 2px solid;
+}

@@ -1,0 +1,24 @@
+.big-card {
+    
+
+    display: flex;
+    flex-direction: column;
+
+    height: 100%;
+}
+
+.big-card > img {
+    width: 100%;
+    height: 550px;
+
+    border-radius: 10px;
+}
+
+.big-card > p {
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+.big-card > h2 {
+    margin-top: 8px;
+}
