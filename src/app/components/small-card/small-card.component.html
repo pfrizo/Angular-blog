@@ -1,6 +1,8 @@
 <div class="small-card">
-    <img [src]="photo" [alt]="photoAlt">
-    <a href="#">
+    <a [routerLink]="['content', id]">
+        <img [src]="photo" [alt]="photoAlt">
+    </a>
+    <a [routerLink]="['content', id]">
         <h3>{{ title }}</h3>
     </a>
 </div>

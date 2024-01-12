@@ -2,18 +2,12 @@
     margin-left: 30px;
 }
 
-.small-card > img {
+.small-card > a > img {
     width: 100%;
     border-radius: 10px;
     height: 150px;
     min-height: 150px;
 }
-
-.small-card > a {
-    text-decoration: none;
-    color: black;
-}
-
 
 .small-card > a > h3 {
     margin: 5px;

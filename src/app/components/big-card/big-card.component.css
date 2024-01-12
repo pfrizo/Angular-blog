@@ -7,7 +7,7 @@
     height: 100%;
 }
 
-.big-card > img {
+.big-card > a > img {
     width: 100%;
     height: 550px;
     min-height: 550px;
@@ -18,11 +18,6 @@
 .big-card > p {
     margin-top: 16px;
     margin-bottom: 8px;
-}
-
-.big-card > a {
-    text-decoration: none;
-    color: black;
 }
 
 .big-card > a > h2 {
